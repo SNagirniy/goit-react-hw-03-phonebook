@@ -1,0 +1,10 @@
+.section {
+  margin: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+  color: rgb(49, 48, 48);
+  text-shadow: 0 0 2px #fff, -1px -1px 0 hsl(80, 7%, 51%),
+    -2px -2px 1px hsl(80, 1%, 59%), -2px -2px 2px hsl(80, 10%, 15%);
+}

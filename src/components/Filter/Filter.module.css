@@ -1,0 +1,27 @@
+.filter_label {
+  display: flex;
+  height: 30px;
+  justify-content: space-between;
+  vertical-align: baseline;
+  margin-bottom: 15px;
+  padding: 0 15%;
+  font-size: larger;
+  font-weight: 700;
+  color: rgb(49, 48, 48);
+  text-shadow: 0 0 1px #fff, -1px -1px 0 hsl(80, 7%, 51%),
+    -1px -1px 1px hsl(80, 1%, 59%), -1px -1px 1px hsl(80, 10%, 15%);
+}
+
+.filter {
+  margin-left: 10px;
+  width: 75%;
+  border-style: none;
+}
+
+.filter:focus-within {
+  outline-width: 2px;
+  outline-offset: 2px;
+  outline-style: double;
+  outline-color: rgb(73, 124, 133);
+  box-shadow: rgb(195, 245, 245) 0px 10px 10px -5px;
+}

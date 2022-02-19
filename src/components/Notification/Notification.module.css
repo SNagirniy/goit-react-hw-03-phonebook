@@ -1,0 +1,7 @@
+.message {
+  font-size: large;
+  font-weight: 500;
+  color: rgb(49, 48, 48);
+  text-shadow: 0 0 1px #fff, -0px -0px 0 hsl(80, 7%, 51%),
+    -1px -1px 1px hsl(80, 1%, 59%), -0px -0px 0px hsl(80, 10%, 15%);
+}
